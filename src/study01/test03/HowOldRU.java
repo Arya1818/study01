@@ -1,14 +1,23 @@
 package study01.test03;
 
-import java.util.Scanner;//ctrl shift o ->Scanner¸¦ À§ÇØ
+import java.util.Scanner;//ctrl shift o ->Scannerï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
 
 public class HowOldRU {
-	public static void main(String[] args) { //Á¤ÇØÁ®ÀÖÁö¾ÊÀº µ¥ÀÌÅÍÅ¸ÀÔ:Ã¹±ÛÀÚ´ë¹®ÀÚ(½ºÄ³³Ê,¹è¿­,½Ã½ºÅÛ,½ºÆ®¸µ
-		Scanner scan = new Scanner(System.in); //º¯¼öÀÇ¼±¾ğ, º¯¼öÀÇÃÊ±âÈ­ //½Ã½ºÅÛ¿¡ ÀÔ·Â°´Ã¼
-		System.out.println("How old are you~?"); //½Ã½ºÅÛÀÇ Ãâ·Â°´Ã¼
+	public static void main(String[] args) { // ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Å¸ï¿½ï¿½:Ã¹ï¿½ï¿½ï¿½Ú´ë¹®ï¿½ï¿½(ï¿½ï¿½Ä³ï¿½ï¿½,ï¿½è¿­,ï¿½Ã½ï¿½ï¿½ï¿½,ï¿½ï¿½Æ®ï¿½ï¿½
+		Scanner scan = new Scanner(System.in); // ï¿½ï¿½ï¿½ï¿½ï¿½Ç¼ï¿½ï¿½ï¿½, ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê±ï¿½È­ //ï¿½Ã½ï¿½ï¿½Û¿ï¿½ ï¿½Ô·Â°ï¿½Ã¼
+		System.out.println("ëª‡ì‚´ì´ì„¸ìš”~?"); // ï¿½Ã½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½Â°ï¿½Ã¼
 		String age = scan.nextLine();
-		System.out.println("I'm "+age+" years old~");
+		int num = Integer.parseInt(age);
+		if (num <= 10) {
+			System.out.println("ì–´ë¦°ì´");
+		} else if (num <= 20) {
+			System.out.println("ì²­ì†Œë…„");
+		} else if (num <= 40) {
+			System.out.println("ì²­ë…„");
+		} else {
+			System.out.println("ê¼°ëŒ€");
+		}
+
 	}
 
 }
-

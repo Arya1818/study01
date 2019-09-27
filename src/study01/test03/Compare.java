@@ -5,14 +5,14 @@ public class Compare {
 		int num1 = 10;
 		int num2 = 5;
 
-		System.out.println(num1 == num2);// µ¥ÀÌÅÍÅ¸ÀÔ:boolean
+		System.out.println(num1 == num2);// ë°ì´í„°íƒ€ì…:boolean
 		System.out.println(num1 != num2);
 		System.out.println(num1 < num2);
 		System.out.println(num1 > num2);
 		System.out.println(num1 <= num2);
 		System.out.println(num1 >= num2);
 
-		boolean isSame = num1 == num2;// µ¥ÀÌÅÍÅ¸ÀÔ:boolean
+		boolean isSame = num1 == num2;// ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Å¸ï¿½ï¿½:boolean
 		System.out.println(isSame);
 	}
 }
