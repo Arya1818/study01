@@ -12,7 +12,7 @@ public class ArrayTest {
 			for (int j = i - 1; j >= 0; j--) {
 				if (nums[i] == nums[j]) {
 					i--;
-					break;
+					break; //stop! 작은 포문을 빠져나옴
 				}
 			}
 		}
