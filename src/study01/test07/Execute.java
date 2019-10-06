@@ -7,7 +7,7 @@ class Calc {                  //접근제어자default
 	public void add() {
 		System.out.println(num1 + num2);
 	}
-	public void minus() {
+	public void substraction() {
 		System.out.println(num1 - num2);
 	}
 	public void multiple() {
@@ -24,7 +24,7 @@ public class Execute {
 		calc.num1 = 5;
 		calc.num2 = 2;
 		calc.add();
-		calc.minus();
+		calc.substraction();
 		calc.multiple();
 		calc.division();
 		

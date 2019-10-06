@@ -27,7 +27,7 @@ public class Lotto {
 		for (int i = 1; i <= 6; i++) {
 			int rNum = r.nextInt(45) + 1;
 			System.out.println(i + "번째:" + rNum);
-			if(rNum==num1 || rNum==num2|| rNum==num3|| rNum==num4|| rNum==num5|| rNum==num6) {
+			if(rNum==num1 || rNum==num2|| rNum==num3|| rNum==num4|| rNum == num5 || rNum == num6 ) {
 				correctCnt++; //맞으면 ++ 해라
 			}
 		}

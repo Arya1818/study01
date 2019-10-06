@@ -1,20 +1,25 @@
 package study01.test01;
 
 public class DataType {
-	
+
 	public static void main(String[] args) {
 		int num = 10;
 		num = 9;
-		System.out.println(num);
+		num = 7;
+		
+		System.out.println(num);             //10
+		
 		num = 8;
 		double doubleNum = 1;
-		System.out.println(doubleNum);
-		
-		String str = "�ȳ��ϼ���";
+		System.out.println(doubleNum);        //1.0
+
+		String str = "안녕하세요";
 		boolean bl = true;
 		bl = true;
-		System.out.println(bl);
-		
-		System.out.println(num + str);
+		System.out.println(bl);        //true
+
+		System.out.println(num + str);  //'10안녕하세요'
+
 	}
 }
+모지  int num 과 그냥 num 의 차이는?

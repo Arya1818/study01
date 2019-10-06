@@ -1,10 +1,11 @@
 package study01.test07;
 
-public class objectTest { //클래스 명이랑 같을때 에러가 안남, public은 옵션
+public class ObjectTest { //클래스 명이랑 같을때 에러가 안남, public은 옵션
 
-	int a; //멤버변수, 죽지않음
+	int a; //맴버변수, 죽지않음
+	
 	public void test() {
-		int a=1; //영역이 끝나버리면 죽음
+		int a=1;                //영역이 끝나버리면 죽음
 		System.out.println(a);
 		System.out.println(a);
 		System.out.println(a);
@@ -14,6 +15,11 @@ public class objectTest { //클래스 명이랑 같을때 에러가 안남, publ
 		System.out.println(a);
 		System.out.println(a);
 		System.out.println(a);
+	}
+	public static void main(String[] args) {
+		ObjectTest ot = new ObjectTest(); //메소드인가?
+		ot.test();
+		ot.test2();
 	}
 }
 

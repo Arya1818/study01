@@ -13,6 +13,7 @@ public class MethodTestF {
 		String[] strs = name.split(","); // 메소드의 호출, 데이터타입:스트링배열
 		for (int i = 0; i < strs.length; i++) {
 			System.out.println("이름:" + strs[i]);
+			//System.out.println(strs.length);
 
 		}
 	}

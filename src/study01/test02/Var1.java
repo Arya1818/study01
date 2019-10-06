@@ -2,16 +2,18 @@ package study01.test02;
 
 public class Var1 {
 	public static void main(String[] args) {
-		int num1 = 1;//º¯¼öÀÇ ¼±¾ğ - µ¥ÀÌÅÍÅ¸ÀÔ int º¯¼ö¸í numÀÌ´Ù. & º¯¼öÀÇÃÊ±âÈ­
+		
+		int num1 = 1;
+		
 		if(num1==1) {
 			int num2 = 10;
-			System.out.println("num1Àº");
-			System.out.println("2ÀÔ´Ï´Ù");
-			System.out.println(num2);
+			System.out.println("num1ì€");           // num1ì€
+			System.out.println("1ì…ë‹ˆë‹¤");			// 1ì…ë‹ˆë‹¤					
+			System.out.println(num2);               // 10
 		}
-		for(;num1<10;num1=num1+1) {
-			System.out.println(num1);
+		for(; num1<10; num1=num1+1) {
+			System.out.println(num1);				// 1,2,3,4,5,6,7,8,9
 		}
-		System.out.println(num1);
+		System.out.println(num1);					// 	10 - forë¬¸ ë§ˆì§€ë§‰ì— num1ê°’ì— 10ì´ ì €ì¥ë¨
 	}
 }

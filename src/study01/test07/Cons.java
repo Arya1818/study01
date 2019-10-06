@@ -1,18 +1,23 @@
-package study01.test07;
+package study01.test07; 이거 호출하는 방법 뭐야!!!
 
 public class Cons {
 	int num = 5;
+	
+	
 	public Cons() {
 		System.out.println(num);
 		System.out.println("아 내가 호출되었구나!");
 	}
 	public Cons(int num) {
-		System.out.println("아 num파라메터가 나를 호출하였구나~!");
+		System.out.println("아 num파라메터가 나를 호출하였구나~!"); 
 	}	
 	
 	public static void main(String[] args) {
-		Cons c = new Cons();       // 생성자, 메모리만듦, 변수초기화까지해줌
+		Cons c = new Cons();  // 생성자, 메모리만듦, 변수초기화까지해줌
+		
+		c.Cons(5);
 		System.out.println(c.num);
+	
 	}
 }
 

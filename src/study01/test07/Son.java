@@ -15,7 +15,7 @@ public class Son extends Mother {
 		Son s = new Son(); //2.생성자의호출-에러안나는이유:자바가 public Son(){} 만들기때문-기본생성자
 		s.cook();
 		s.cook(1);
-		s.cook("123"); //1.메소드의호출
+		//s.cook("123"); //1.메소드의호출
 		
 	}
 }

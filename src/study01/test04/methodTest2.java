@@ -11,10 +11,10 @@ public class methodTest2 { // 어떤 동작을 할 때 메서드 사용
 
 	}
 
-	public static void main(String[] args) { // 실행라인
-		test(); // 위 test()는 자기영역 있으니 선언, 여기는 없으니 호출
-		int a = getNum(); // int형 변수에 대입할수 있다. int a = 1 //getNum이 byte라면 대입가능. 물통비유.
-		// getNum() = 0 안됨. 정의가 아니라 호출이기 때문에.
+	public static void main(String[] args) {        // 실행라인
+		//test();                  // 위 test()는 자기영역 있으니 선언, 여기는 없으니 호출
+		//int a = getNum();        // int형 변수에 대입할수 있다. int a = 1 //getNum이 byte라면 대입가능. 물통비유.
+		 getNum();                          // getNum() = 0 안됨. 정의가 아니라 호출이기 때문에.
 	}
 
 }

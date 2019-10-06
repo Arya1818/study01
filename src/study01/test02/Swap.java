@@ -1,12 +1,12 @@
 package study01.test02;
 
 public class Swap {
-	public static void main(String[] args) { //int a´Â ¸ŞÀÎ¿µ¿ª¿¡ Æ÷ÇÔµÇ¾îÀÖÀ½
+	public static void main(String[] args) { //int aëŠ” mainì˜ì—­ì— í¬í•¨.
 		int a = 3;
 		int b = 4;
-		int c = a;
-		a = b;
-		b = c;
+		int c = a;   // c = 3
+		a = b;       // a = 4
+		b = c;       // b = 3	--->ê²°ê³¼ì ìœ¼ë¡œ aì™€ bê°€ ë°”ë€œ	
 		System.out.println(a+","+b);
 		
 		int[] nums = new int[3];

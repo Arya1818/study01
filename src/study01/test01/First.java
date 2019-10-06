@@ -3,9 +3,9 @@ package study01.test01;
 public class First {
 
 	public static void main(String[] args) {
-		System.out.println("¾È³çÇÏ¼¼¿ä~");
-		System.out.print("ÈŞ½ÄÀÌÇÊ¿ä");
+		System.out.println("ì•ˆë…•í•˜ì„¸ìš”~");
+		System.out.print("ì €ëŠ”");
 		
-		System.out.print("ÇãÇã");
+		System.out.print("Joy ì…ë‹ˆë‹¤.");
 	}
 }

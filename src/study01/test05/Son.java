@@ -7,12 +7,15 @@ class Father {
 }
 
 public class Son extends Father {
-	void work() {
+	super work();
+	void work() { 
 		System.out.println("나도 일을 한다!"); //오버라이딩-아빠꺼 그대로 두고 아들을 올림
 	}
 
 	public static void main(String[] args) {
 		Son s = new Son();
+//		Father f = new Father();
+//		f.work();
 		s.work();
 	}
 }

@@ -3,23 +3,23 @@ package study01.test01;
 public class Condition {
 
 	public static void main(String[] args) {
-		int num = 2;
+		int num =3;
 		if (num == 1) {
-			System.out.println("1ÀÌ ¸Â³×¿ä");
+			System.out.println("1ì…ë‹ˆë‹¤.");
 
 		} else if (num == 2) {
-			System.out.println("2°¡ ¸Â³×¿ä");
+			System.out.println("2ì…ë‹ˆë‹¤.");
 		} else {
-			System.out.println("1µµ 2µµ ¾Æ´Ï³×¿ä");
+			System.out.println("1ë„ 2ë„ ì•„ë‹™ë‹ˆë‹¤.");
 		}
 
-		System.out.println("¿Ï·á");
+		System.out.println("ë");
 
-		String trans = "³²ÀÚ";
-		if (trans == "³²ÀÚ") {
-			System.out.println("³²ÀÚÀÔ´Ï´Ù.");
-		} else if (trans == "¿©ÀÚ") {
-			System.out.println("¿©ÀÚÀÔ´Ï´Ù.");
+		String trans = "ï¿½ï¿½ï¿½ï¿½";
+		if (trans == "ï¿½ï¿½ï¿½ï¿½") {
+			System.out.println("ï¿½ï¿½ï¿½ï¿½ï¿½Ô´Ï´ï¿½.");
+		} else if (trans == "ï¿½ï¿½ï¿½ï¿½") {
+			System.out.println("ï¿½ï¿½ï¿½ï¿½ï¿½Ô´Ï´ï¿½.");
 		}
 	}
 }

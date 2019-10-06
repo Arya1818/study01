@@ -1,6 +1,5 @@
 package study01.test04;
 
-import java.util.Random;
 
 public class ObjectTest {
 	int age; // 변수를 선언만 함. 멤버변수:자바가 0으로 초기화 시켜줌.
@@ -17,3 +16,5 @@ public class ObjectTest {
 
 	}
 }
+
+//뭘 얘기하고싶었던걸까?? 무슨 개념을 설명하고 싶은지 잘 모르겠다.

@@ -21,3 +21,4 @@ public class HowOldRU {
 	}
 
 }
+practice01 참고
