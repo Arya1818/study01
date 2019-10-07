@@ -11,11 +11,11 @@ class Calc03 {
 
 public class Execution {
 	public static void main(String[] args) {
-			Calc[] calcs = new Calc03[3];
+			Calc03[] calcs = new Calc03[3];
 			System.out.println(calcs[2]);
 			
 			calcs[2] = new Calc03();
-	System.out.println(calcs[2]);
+			System.out.println(calcs[2]);
 			calcs[2].add();
 
 			calcs[0].add();

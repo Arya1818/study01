@@ -7,7 +7,7 @@ public class DataType {
 		num = 9;
 		num = 7;
 		
-		System.out.println(num);             //10
+		System.out.println(num);             //7
 		
 		num = 8;
 		double doubleNum = 1;
@@ -18,8 +18,8 @@ public class DataType {
 		bl = true;
 		System.out.println(bl);        //true
 
-		System.out.println(num + str);  //'10안녕하세요'
+		System.out.println(num + str);  //'8안녕하세요'
 
 	}
 }
-모지  int num 과 그냥 num 의 차이는?
+//

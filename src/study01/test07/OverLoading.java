@@ -2,9 +2,9 @@ package study01.test07;
 
 public class OverLoading {
 
-	public void test() { //파라메터 0개
-		//return "나비";
-		System.out.println("test() 메소드 호출!");			
+	public String test() { //파라메터 0개
+		return "나비";
+		//System.out.println("test() 메소드 호출!");			
 	}
 	public void test(int num) { //파라메터 1개
 		System.out.println("test(int num)메소드 호출!");	
@@ -24,9 +24,9 @@ public class OverLoading {
 		OverLoading ol = new OverLoading();
 
 		//ol.test(1.1); // double이 없기 때문에 안됨
-		//System.out.println(ol.test()); // void때문에 안됨 (void라는 데이터타입이 없다.)
-		ol.test(5);
-		ol.test("하하",1);
+		System.out.println(ol.test()); // void때문에 안됨 (void라는 데이터타입이 없다.)
+		//ol.test(5);
+		//ol.test("하하",1);
 	}
 }	
 
@@ -41,4 +41,4 @@ public class OverLoading {
  * 데이터 타입이 무엇인지, 어떤 값을 return하는지 
  * 
  */
-계속해서봐야지!!!!!!!!!!!!!
+//계속해서봐야지!!!!!!!!!!!!!
