@@ -32,7 +32,7 @@ public class StringArray {
 
 
 /* ArrayList<String>
- *  사이즈가 늘어나거나 삭제됨
+ * 사이즈가 늘어나거나 삭제됨
  * ArrayList가 어딨는지 몰라서에러 ctrl shift o  
  * String만 담을 수 있는 <>에는 Arraylist의구조가 들어감 element.
  * Arraylist라고 부르는것들만 집어넣을수있다.---><String> 스트링어레이리스트라고 부르는것들만 집어넣을수있다.
