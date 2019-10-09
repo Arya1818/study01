@@ -1,4 +1,4 @@
-package practice;
+package practice01;
 
 public class Practice07 {
 
@@ -12,9 +12,11 @@ public class Practice07 {
 			System.out.println(ot == ot2);
 			System.out.println(ot);
 			System.out.println(ot2);
-
+			
+			System.out.println(ot.num1);
 			System.out.println(ot.num2); 	
-			System.out.println(ot2.num1);	
+			System.out.println(ot2.num1);
+			System.out.println(ot2.num2);
 			}
 	}
 

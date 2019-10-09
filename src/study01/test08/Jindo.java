@@ -1,7 +1,7 @@
 package study01.test08;
 
 class Animal{
-	
+
 }
 class Dog extends Animal{
 	public void test() {
@@ -10,11 +10,14 @@ class Dog extends Animal{
 }
 public class Jindo extends Dog{
 	int i;
+	public void test() {
+		System.out.println("난 진도의 테스트 메소드야!");
+	}
 	
 	public static void main(String[] args) {
 		Jindo j = new Jindo();
 		Dog d = new Jindo();
-		Animal a = new Jindo();
+		//Animal a = new Jindo();
 		
 		j.test();
 		d.test();

@@ -15,7 +15,7 @@ public class Overloading {
 	public void a(String a) {
 		
 	}
-	public void a(String s,int a) {
+	public void a(String s, int a) {
 		
 	}
 }

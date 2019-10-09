@@ -1,4 +1,4 @@
-package practice;
+package practice01;
 
 class Calc03 {
 	int num1 = 3;

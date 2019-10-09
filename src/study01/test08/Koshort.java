@@ -10,14 +10,14 @@ public class Koshort extends Cat {                //koshort은 koshort,Cat,Objec
 		System.out.println("코숏 고양이가 잡니다.");  
 	}
 	public static void main(String[] args) {
-		Koshort ks = new Koshort(); 
+	//	Koshort ks = new Koshort(); 
 	//	Cat c = new Koshort();
-	//	Object ob = new Koshort();
+		Object ob = new Koshort();
 		
 		
-		ks.sleep();
+	//	ks.sleep();
 	//	c.sleep(); //코숏 고양이가 잡니다.
-		
+	//	ob.sleep();
 		
 		
 		
