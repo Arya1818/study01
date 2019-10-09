@@ -23,8 +23,6 @@ public class Inherit extends Atom {   //패키지 다르면 ~ 모르기때문에
 		Object o = new Inherit();
 		System.out.println(o);//1.가능
 		System.out.println(new Inherit());//2이것도가능
-	
-
 	}
 }
 
@@ -34,5 +32,5 @@ public class Inherit extends Atom {   //패키지 다르면 ~ 모르기때문에
 
 //오버라이딩:상속받은 메서드의 내용을 변경하는ㄴ것.
 
-7라인은 뭘 오버라이딩한거지?
+//7라인은 뭘 오버라이딩한거지?
          

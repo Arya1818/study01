@@ -13,9 +13,9 @@ public class ObjectTest {
 	public static void main(String[] args) {
 		ObjectTest ot = new ObjectTest();    //자바가 ObjectTest를 읽게하는 방법 (유일한방법) 
 		ot.num1 = 10;
-		System.out.println(ot.num1);
+		System.out.println(ot.num1);//10
 		
-		System.out.println(ObjectTest2.num2);
+		System.out.println(ObjectTest2.num2);//2
 		ObjectTest.num2=3;
 		System.out.println(ObjectTest2.num2); //ObjectTest2생략가능, 당연히 ObjectTest의 클래스라서 =>하지만 정식대로 써야함
 	}

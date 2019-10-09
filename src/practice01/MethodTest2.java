@@ -8,14 +8,15 @@ public class MethodTest2 {
 
 	static int getNum() {
 
-		return 0;
+		return 2;
 
 	}
 
 	public static void main(String[] args) {
-		// test();
-		int a = getNum();  //getNum의 반환값이 int니까 int 형 변수에 대입할수 있다!!★
-		// System.out.println(getNum());
+		 //test();
+		// getNum(); //아무 값도 입력되지 않음
+		//int a = getNum();  //getNum의 반환값이 int니까 int 형 변수에 대입할수 있다!!★
+		System.out.println(getNum());
 	}
 
 }
