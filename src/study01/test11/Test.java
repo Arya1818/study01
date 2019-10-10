@@ -1,4 +1,4 @@
-package study01.test11;
+package study01.test11; 너무 어렵다. 하지만 이해만 하면 쉽다!
 
 import java.util.HashMap;
 

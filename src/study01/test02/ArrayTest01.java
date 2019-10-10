@@ -9,7 +9,11 @@ public class ArrayTest01 {
 		name[1] = "eun";
 		name[2] = "ae";
 		
-		System.out.println(name);
+		for(int i=0; i<name.length; i++) {
+			System.out.println(name[i]);
+		}
+		
+		//System.out.println(name); //주소값이 출력됨
 
 		//String[] name = new String[] {“Jo”, “eun”, “ae”};
 

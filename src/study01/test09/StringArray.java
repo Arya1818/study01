@@ -12,7 +12,7 @@ public class StringArray {
 		strList.add("임꺽정");
 		strList.add("김문수");
 		
-		System.out.println("==우리만 출석부==");
+		System.out.println("==우리반 출석부==");
 		for(int i=0; i<strList.size(); i++) {
 			System.out.println((i)+"."+strList.get(i));
 		}
