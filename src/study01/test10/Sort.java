@@ -47,5 +47,3 @@ public class Sort {
 //Arraylist 추가 삭제 너무 빨라
 //size(); get(); set(); 메서드
 //<>안채워주면 에러가 난다 우리는 채워준다. 
-
-

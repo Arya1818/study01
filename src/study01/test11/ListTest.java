@@ -1,5 +1,6 @@
 package study01.test11;
 
+
 import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
@@ -19,18 +20,18 @@ public class ListTest {
 		List2.add("1");
 		List2.add("2");
 		List2.add("3");
-		System.out.println(List1);
-		System.out.println(List2);
+		System.out.println(List1); //[1,2,3]
+		System.out.println(List2); //[1,2,3]
 		List1.remove("0");
 		List1.remove("0");
-		System.out.println(List1);
-		System.out.println(List2);
-		List1.set(0, "4");
-		List2.set(0, "4");
-		System.out.println(List1);
-		System.out.println(List2);
-		System.out.println(List1.size());
-		System.out.println(List2.size());
+		System.out.println(List1); //[1,2,3]
+		System.out.println(List2); //[1,2,3]
+		List1.set(0, "4"); 
+		List2.set(0, "4"); 
+		System.out.println(List1); //[4,2,3]
+		System.out.println(List2); //[4,2,3]
+		System.out.println(List1.size()); //3
+		System.out.println(List2.size());  //3
 		
 	}
 }

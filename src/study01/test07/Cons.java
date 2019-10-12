@@ -22,7 +22,7 @@ public class Cons {
 		
 		c.add();////내가추가해줌
 		
-		//System.out.println(c.num);
+		System.out.println(c.num);
 	
 	}
 }

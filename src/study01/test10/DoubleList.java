@@ -10,18 +10,18 @@ public class DoubleList {
 		ArrayList<Double> doubleList = new ArrayList<Double>();
 		Random r = new Random();
 		
-		for(int i=0; i<=10; i++) {
+		for(int i=0; i<10; i++) {
 			strList.add(r.nextInt(100)+"."+r.nextInt(10));
+			
+//			System.out.println(strList);
 			doubleList.add(Double.parseDouble(strList.get(i)));
 			
 		}
-		System.out.println(doubleList);
+//		System.out.println(doubleList);
 		//System.out.println(strList.get(0) + strList.get(1)); 
-		//System.out.println(doubleList.get(0) + doubleList.get(1)); 
+		System.out.println(doubleList.get(0) + doubleList.get(1)); 
 				
 	}
-	
-	
 }			
 
 //for문으 0-9까지 돌린다

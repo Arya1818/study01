@@ -11,6 +11,12 @@ public class StringArray01 {
 		strList.add("임혜정");
 		strList.add("박하늘");
 		strList.add("지혜영");
+		strList.add("지혜영");
+		strList.add("지혜영");
+		strList.add("지혜영");
+		strList.add("지혜영");
+		strList.add("지혜영");
+		
 		
 		System.out.println(strList);
 	}
