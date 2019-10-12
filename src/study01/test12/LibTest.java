@@ -17,7 +17,7 @@ public class LibTest {
 			System.out.println("나이를 입력해 주세요 :");
 			//ages.add(scan.nextLine());
 			String age = scan.nextLine();
-			age = StringUtils.leftPad(age, 3, "");     //추가/ leftpad 메모리 생성안했는데,삐딱 ->static , 상속받은거아님 public
+			age = StringUtils.leftPad(age, 3, "");     //추가
 		//	age = StringUtils.leftPad(age, 10, "*");    
 			ages.add(age);
 		}
@@ -31,3 +31,4 @@ public class LibTest {
 
 
 //StringUtils
+// leftpad 메모리 생성안했음 ->static , 상속받은거아님 public

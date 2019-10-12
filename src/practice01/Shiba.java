@@ -16,9 +16,9 @@ public class Shiba extends Cat {
 
 	public static void main(String[] args) {
 		Shiba s = new Shiba();
-		Dog d = new Shiba();
+//		Dog d = new Shiba();
 		s.sleep();
-		d.sleep();
+//		d.sleep();
 	}
 
 }

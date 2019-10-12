@@ -4,7 +4,7 @@ public class PadTest {
 
 	public static void main(String[] args) {
 		String str ="1";
-		int max = 4 -str.length() ; //제로필
+		int max = 4 -str.length() ; //zerofill
 		//str ="0" + str;
 		//str ="0" + str;
 		//str ="0" + str;
