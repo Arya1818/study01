@@ -5,22 +5,22 @@ public class Cons {
 	
 	
 	public Cons() {
-		System.out.println(num);
-		System.out.println("아 내가 호출되었구나!");
+		System.out.println(num); 
+//		System.out.println("아 내가 호출되었구나!");
 	}
 	public Cons(int num) {
 		System.out.println("아 num파라메터가 나를 호출하였구나~!"); 
 	}	
 	
 	public void add() {
-		System.out.println(num);
+//		System.out.println(num);
 	}
 	
 	
 	public static void main(String[] args) {
-		Cons c = new Cons();  //  메모리만듦, 변수초기화까지해줌
+		Cons c = new Cons(5);  //  메모리만듦, 변수초기화까지해줌
 		
-		c.add();////내가추가해줌
+	//	c.add();////내가추가해줌
 		
 		System.out.println(c.num);
 	

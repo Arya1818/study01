@@ -2,7 +2,7 @@ package study01.test11;
 
 interface Promise{
 	public void test(); //인터페이스는 선언만 가능, 자기 영역을 가질 수 없다. //default라고 선언하지 않으면 default아니고 public이다.
-	void test1();
+	 public void test1();
 
 }
 
@@ -12,7 +12,7 @@ public class InterfaceTest  implements Promise{
 		//아무것도 안해도 overriding 해 줘야 한다. (설계도에 구현하라고 나와있기 때문에)
 	}
 	
-	protected void test1() { 
+	public void test1() { 
 	}
 }
 

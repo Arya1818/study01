@@ -1,5 +1,13 @@
 package study01.test11;
 
+
+
+interface Remote {
+	public void on();
+	public void off();
+}
+
+
 public class AirconRemocon implements Remote {
 
 	@Override
