@@ -5,7 +5,7 @@ public class Atom{
 		System.out.println("이건 Atom에서만 쓸수 있는 메소드");
 	}
 	
-	void defaultTest() {
+	void defaultTest() { //default가 생략된것
 		privateTest(); //2.여기서 호출하니까 가능!
 		System.out.println("이건 같은 패키지 안에서만 쓸 수 있는 메소드");
 	}

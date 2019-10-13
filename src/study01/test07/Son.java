@@ -22,7 +22,7 @@ public class Son extends Mother {
 
 
 /* Son(); Scanner(); -> 대문자 ->
- * 함수 아니고 생성자구나
+ * 메서드 아니고 생성자구나
  * 
  * 
  * */

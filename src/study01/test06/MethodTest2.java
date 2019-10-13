@@ -12,7 +12,6 @@ public class MethodTest2 {
 	}
 	public static void main(String[] args) {
 		MethodTest2 mt2 = new MethodTest2();     //int를 0으로 초기화 시킴(자바가)
-		
 		mt2.getNum();
 	}
 }

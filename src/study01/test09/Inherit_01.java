@@ -15,6 +15,7 @@ public class Inherit_01 {
 
 
 
+
 /*
  * 1.변수가 private 접근제어자기 때문에 System.out.println(f.name);불가 
  * 2. System.out.println(f.getName()); 귀찮

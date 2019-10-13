@@ -24,9 +24,11 @@ public class ArrayTest {
 		double[] dbs = new double[5];
 		dbs[0] = 3.3;
 		System.out.println(dbs[0]);     // 3.3
-		dbs = new double[1];
+		dbs = new double[2];
 		System.out.println(dbs[0]);     // 0.0
-
+		System.out.println(dbs[1]);		//0.0
+		
+		
 		System.out.println(moneys.length);  // 4
 		for(int i=0; i<moneys.length; i++) {
 			System.out.print(moneys[i]);  // 0,100,500,1000

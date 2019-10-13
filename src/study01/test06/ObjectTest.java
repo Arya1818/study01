@@ -20,7 +20,7 @@ public class ObjectTest {
 		ObjectTest ot2 = new ObjectTest();
 		System.out.println(ot.str); //""
 		System.out.println(ot2.str); //""
-		System.out.println(ot.str==ot2.str); //true
+		System.out.println(ot.str==ot2.str); //true-같은 주소값을 바라보고있음(java영역)
 		
 		
 	//	ot2.str = new String("")               //false
@@ -32,4 +32,3 @@ public class ObjectTest {
 
 //정해져있는 데이터 타입은 값 같으면 같은거!!!!
 //정해져있지 않은 데이터 타입
-//모르게쒑

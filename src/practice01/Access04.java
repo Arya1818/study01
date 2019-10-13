@@ -5,8 +5,8 @@ public class Access04 {
 	int num = 5;
 
 	public void cons() {
-			System.out.println(num);
-			System.out.println("I'm called.");
+			System.out.println(num); 			
+			System.out.println("I'm called."); 		
 		}
 
 	public void cons(int num) {

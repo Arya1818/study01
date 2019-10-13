@@ -11,8 +11,7 @@ public class DataType2 {
 	public static void main(String[] angs) {
 		DataType2 dt2 = new DataType2();
 		dt2.Human();
-		//System.out.println(dt2.Human);
-	
+
 
 	}
 }

@@ -20,7 +20,6 @@ public class OverLoading {
 	
 	public static void main(String[] args) {
 		OverLoading ol = new OverLoading();
-
 		
 		ol.test();
 		ol.test("하하");

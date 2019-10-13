@@ -15,11 +15,12 @@ public class Condition {
 
 		System.out.println("끝");
 
-		String trans = "����";
-		if (trans == "����") {
-			System.out.println("�����Դϴ�.");
-		} else if (trans == "����") {
-			System.out.println("�����Դϴ�.");
+		String trans = "나비";
+		
+		if (trans == "나비") {
+			System.out.println("나비입니다.");
+		} else if (trans == "호랑이") {
+			System.out.println("호랑이입니다.");
 		}
 	}
 }
