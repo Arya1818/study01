@@ -4,12 +4,12 @@ public class Object03 {
 
 	String str1 = "";  //클래스영역에 있지만 static이 안붙음->인스턴스변수
 	String str2 = "";
-	boolean bl1 = true;
-	boolean bl2 = false;
+//	boolean bl1 = true;
+//	boolean bl2 = false;
 
-	Object03(){
+//	Object03(){
 		
-	}
+//	}
 	public static void main(String[] args) {
 //		String str1 = new String("");
 //		String str2 = new String("");
