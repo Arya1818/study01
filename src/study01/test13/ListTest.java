@@ -1,7 +1,5 @@
 package study01.test13;
 
-import java.util.ArrayList;
-
 public class ListTest {
 	private String[] strs; //<-이걸쓰려면 반드시 ListTest를 new해줘야한다./변수는 private로 주로 선언, 왜? main에서 맘대로 못바꾸게하려고, 메소드를 통해 하게하려고.
 	
@@ -22,12 +20,14 @@ public class ListTest {
 		}
 	}
 	
+	
 	public static void main(String[] args) {
-		ArrayList<String> arr = new ArrayList<String>();
+//		ArrayList<String> arr = new ArrayList<String>();
 		//System.out.println(arr.size());    //int형 데이터타입에 size가 있다.
 		ListTest lt = new ListTest();
 //		System.out.println(lt.size());
 		lt.add("a"); // a
+		
 		lt.add("b"); // null b
 		lt.add("c"); // null null c
 //		System.out.println(lt.size());
@@ -39,7 +39,9 @@ public class ListTest {
 // 메소드를 가지고 있는건 정해지지않은 데이터타입
 
 //  (temp 변수에 전에 가지고 있던 방을 넣어두고 for문을 돌려 +1만큼 증가하게 만들고 출력할 때 더해준다?)
-// 
+// 배열에는 length라는 속성이없음 정해진거임.
+//String은 정해진데이터타입x 
+//string이 length를 가지고있긴 하지만 
 
 
 
