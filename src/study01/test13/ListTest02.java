@@ -22,7 +22,6 @@ public class ListTest02 {
 	}
 		
 	
-	
 	public static void main(String[] args) {
 		ArrayList<String> arr = new ArrayList<String>();
 		ListTest02 lt = new ListTest02();
