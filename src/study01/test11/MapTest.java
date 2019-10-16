@@ -22,12 +22,9 @@ public class MapTest {
 	//	System.out.println(map.get("이름"));
 	//	System.out.println(map); //{이름=홍길동, 주소=서울 강서구, 나이=33, 성별=남자}
 		System.out.println(people); //[{이름=홍길동, 주소=서울 강서구, 나이=33, 성별=남자}]
-		
+		System.out.println(people.get(0));
 	}
 }
-
-
-
 
 
 

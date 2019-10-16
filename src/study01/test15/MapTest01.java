@@ -33,7 +33,7 @@ public class MapTest01 {
 		
 		
 		}
-		System.out.println(map.get("보물1호")==map.get("보물2호"));  //true. 같은 주소를 바라봄.
+	//	System.out.println(map.get("보물1호")==map.get("보물2호"));  //true. 같은 주소를 바라봄.
 }
 }
 

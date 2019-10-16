@@ -21,8 +21,8 @@ public class MapTest {
 //		for(int i=0; i< map.size();i++) {
 //			System.out.println(map.get(i)); //index 데이터타입이 string인데 get(i)는 int라서.. //null, null, null
 //		}
-//		System.out.println(map);
-//		System.out.println(map.get("보물1호")==map.get("보물2호"));  //true. 같은 주소를 바라봄.
+		System.out.println(map);
+		System.out.println(map.get("보물1호")==map.get("보물2호"));  //true. 같은 주소를 바라봄.
 }
 }
 
