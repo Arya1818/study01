@@ -26,6 +26,7 @@ public class ListTest05 {
 	}
 	public void remove(int idx) {
 		String[] tmp = strs;
+		strs = new String[strs.length-1];
 		for(int i=0; i<idx; i++) {
 			strs[i] = tmp[i];
 		}
