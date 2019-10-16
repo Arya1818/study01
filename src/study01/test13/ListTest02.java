@@ -18,6 +18,10 @@ public class ListTest02{
 			this.strs[i]=tmpStr[i];
 		}
 	}
+<<<<<<< HEAD
+		
+	
+=======
 	public String toString(){  //상속받은거니까 접근제어자가 중요!! 그리고 toString의 데이ㅓ타입이 String
 		//String str = "";   //lt가 가지고있는 strs에 뭐가있느냐가 알고싶은거임
 		//return str;
@@ -55,6 +59,7 @@ public class ListTest02{
 		}
 	}
 
+>>>>>>> branch 'master' of https://github.com/Arya1818/study01.git
 	public static void main(String[] args) {
 //		ArrayList<String> arr = new ArrayList<String>();
 		ListTest02 lt = new ListTest02();
