@@ -83,6 +83,30 @@ public class Execute {
 			e.printStackTrace();
 		}
 	}
+	void initResponse() {
+		String res = ""; //일단 값이 없음 이따가 scan으로 넣어줌
+		System.out.println("원하는 서비스 번호를 입력하세요.");
+		System.out.println("1.유저생성");
+		System.out.println("2.유저삭제");
+		System.out.println("3.유저수정");
+		System.out.println("4.유저조회");
+		System.out.println("q.종료");
+		res = scan.nextLine();
+		if("1".equals(res)) {
+			
+		}else if("2".equals(res)) {
+			
+		}else if("3".equals(res)) {
+			
+		}else if("4".equals(res)) {
+			
+		}else if("q".equals(res)) {
+			System.out.println("시스템이 종료됩니다.");
+		}else {
+			System.out.println("번호를 다시 입력해주세요.");
+		}
+		
+	}
 
 	public static void main(String[] args) {
 		Execute ex = new Execute();
