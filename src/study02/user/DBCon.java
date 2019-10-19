@@ -49,6 +49,3 @@ public class DBCon { //Data Base Connection
 	}
 }
 
-//update user_info
-//set age = 34
-//where id =Arya'
