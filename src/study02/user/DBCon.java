@@ -24,7 +24,7 @@ public class DBCon { //Data Base Connection
 		}
 	}
 	
-	private static Connection con;
+	private static Connection con; //private로 만든 후 getCon메소드를 통해 부를수있도록함
 	
 //	public static Connection getCon1() throws SQLException {
 //		if(con == null) {
@@ -35,7 +35,7 @@ public class DBCon { //Data Base Connection
 	public static Connection getCon() {   //connection적인 오류는 throws할 필요가 없다.더 효율적
 		if(con == null) {
 			try {
-				con = DriverManager.getConnection(URL,ID,PWD);
+				con = DriverManager.getConnection(URL,ID,PWD);  //전화 걸었지만 끊는 로직은 없음
 			} catch (SQLException e) {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
