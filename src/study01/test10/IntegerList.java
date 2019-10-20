@@ -9,7 +9,7 @@ public class IntegerList {
 		al.add(10);
 		al.add(20);
 		al.add(30);
-//		System.out.println(al); 	// [10, 20, 30]
+		System.out.println(al); 	// [10, 20, 30]
 		
 		for(int i=0; i<al.size(); i++ ) {
 			System.out.println(al.get(i));
@@ -25,3 +25,5 @@ public class IntegerList {
  * 
  * 
  */
+
+

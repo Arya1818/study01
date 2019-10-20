@@ -1,7 +1,8 @@
 package study01.test13;
 
 public class ListTest {
-	private String[] strs; //<-이걸쓰려면 반드시 ListTest를 new해줘야한다./변수는 private로 주로 선언, 왜? main에서 맘대로 못바꾸게하려고, 메소드를 통해 하게하려고.
+	private String[] strs; /* <-이걸쓰려면 반드시 ListTest를 new해줘야한다./변수는 private로 주로 선언, 왜? 
+								main에서 맘대로 못바꾸게하려고, 메소드를 통해 하게하려고.*/
 	
 	public ListTest() {			//null값의 길이를 구하면 안도니까 이걸 꼭 추가해줘야함.
 		this.strs = new String[0];  

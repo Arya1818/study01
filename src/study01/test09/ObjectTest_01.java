@@ -14,6 +14,6 @@ public class ObjectTest_01 {
 		String str2 = new String("1");    //false
 		
 		System.out.println(str1==str2);
-		//System.out.println(str1.equals);
+		System.out.println(str1.equals(str2));
 	}
 }

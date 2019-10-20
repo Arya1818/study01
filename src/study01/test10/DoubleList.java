@@ -27,6 +27,6 @@ public class DoubleList {
 //for문으 0-9까지 돌린다
 //랜덤 숫자를 두개 돌린다 0-99 0-9
 //첫번재 변수 + . +두번재 변수 =>string
-//ArrayList string에 하나씩 짚어넣기
+//ArrayList string에 하나씩 집어넣기
 
 //Integer는 메모리 생성 안해도 parseInt를쓸수있다 =>parseInt는 static

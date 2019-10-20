@@ -11,7 +11,7 @@ public class ExceptionTest {
 		}finally {
 			System.out.println("난 무조건 실행돼!");
 		}
-		System.out.println("종료합니다.")
+		System.out.println("종료합니다.");
 	}
 }
 

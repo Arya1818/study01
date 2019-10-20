@@ -17,8 +17,8 @@ public class LibTest {
 			System.out.println("나이를 입력해 주세요 :");
 			//ages.add(scan.nextLine());
 			String age = scan.nextLine();
-			age = StringUtils.leftPad(age, 3, "");     //추가
-		//	age = StringUtils.leftPad(age, 10, "*");    
+		//	age = StringUtils.leftPad(age, 3, "");     //추가
+			age = StringUtils.leftPad(age, 10, "*");    
 			ages.add(age);
 		}
 		Collections.sort(ages);

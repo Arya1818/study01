@@ -21,7 +21,7 @@ public class Insert {
 			
 			sql +="values(";
 			for(int i=0; i<infos.length; i++) {
-				sql += "'" + infos[i] + "',";
+				sql += "'" + infos[i] + "',"; 
 			}
 			sql = sql.substring(0,sql.length()-1);
 			sql +=")";

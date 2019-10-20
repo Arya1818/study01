@@ -52,16 +52,42 @@ public class Execute01 {
 	}
 	
 	void update() {
-
+		System.out.println("바꾸고 싶은 이름의 아이디를 입력해주세요");
+		String id = "'" + scan.nextLine() + "'";
+		System.out.println("이름을 무엇으로 바꾸시겠습니까?");
+		String name = "'" + scan.nextLine()+ "'";
+		String sql = "update user_info set name ="+name+"where id ="+id;
+		
+		try {
+			Statement stmt = con.createStatement();
+			int result = stmt.executeUpdate(sql);
+			System.out.println("업데이트된 갯수:"+result);
+		} catch (SQLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 	}
 
 	void select() {
+		System.out.println("성이 무엇인가요?");
+		String name = scan.nextLine();
+		String sql = "select * from user_info where name like'" + name +"%"+"'";
 
+		try {
+			Statement stmt = con.createStatement();
+			int result = stmt.executeUpdate(sql);
+			System.out.println("입력된갯수: " + result);
+		} catch (SQLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 	}
 
 	public static void main(String[] args) {
 		Execute01 ex = new Execute01();
-		ex.insert();
+	//	ex.insert();
+	//	ex.update();
+		ex.select();
 	}
 
 }

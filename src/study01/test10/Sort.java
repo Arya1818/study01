@@ -28,7 +28,7 @@ public class Sort {
 		ArrayList<Double> doubleList = new ArrayList<Double>();
 		for(int i =0; i<doubleList.size(); i++) {
 			if(doubleList.get(i) > doubleList.get(j)) {
-				double tmpDouble = doubleList.get(i));
+				double tmpDouble = doubleList.get(i);
 				doubleList.set(i, doubleList.get(j));
 				doubleList.set(j, tmpDouble);
 			}

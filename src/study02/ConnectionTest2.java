@@ -32,7 +32,7 @@ public class ConnectionTest2 {
 	public static void main(String[] args) {
 	
 		
-		Connection con = null;  //finally에서 쓰려고/
+		Connection con = null;  //finally에서 쓰려고
 //		Connection con; //만약 선언만 한다면? 바라보는게없음. 지역변수이기 때문에 x
 		
 		try {

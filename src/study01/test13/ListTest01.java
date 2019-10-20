@@ -8,7 +8,7 @@ public class ListTest01 {
 		t = new Integer(3);
 		t = new String("123");
 		t = new int[3];
-		t = new Integer(3);
-		System.out.println(new String[3]);
+	//	t = new Integer(3);
+		System.out.println(t);
 		}
 }

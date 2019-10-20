@@ -110,9 +110,9 @@ public class Execute {
 
 	public static void main(String[] args) {
 		Execute ex = new Execute();
-//		ex.insert(); //void insert가 static이 아니라서 위치를 모름. 메모리 생성 후 호출. 
+		ex.insert(); //void insert가 static이 아니라서 위치를 모름. 메모리 생성 후 호출. 
 //		ex.delete();
 //		ex.update();
-		ex.select();
+//		ex.select();
 	}
 }

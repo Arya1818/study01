@@ -8,7 +8,7 @@ public class ObjectTest {
 	int num1;
 	//static String num1; //이딴거안됨
 	static int num2; //<-0을 넣어줌
-	
+
 	
 	public static void main(String[] args) {
 		ObjectTest ot = new ObjectTest();    //자바가 ObjectTest를 읽게하는 방법 (유일한방법) 

@@ -13,14 +13,17 @@ public class MapTest {
 		human.put("주소","서울 강서구");
 		human.put("성별","남자");
 	//	map.put("성별", "여자"); //같은 키면 중복이 안된다. 
+	
+		
+		System.out.println(human);
 		
 		List<HashMap<String,String>> people = new ArrayList<HashMap<String,String>>();  // 위와 데이터타입이 같음
 		
 		people.add(human);
 		people.add(human); //add할 때마다 나온다. 그래서 같은 값으로 2개가 나온다. //[{이름=홍길동, 주소=서울 강서구, 나이=33, 성별=남자}, {이름=홍길동, 주소=서울 강서구, 나이=33, 성별=남자}]
 		
-	//	System.out.println(map.get("이름"));
-	//	System.out.println(map); //{이름=홍길동, 주소=서울 강서구, 나이=33, 성별=남자}
+	//	System.out.println(human.get("이름"));
+	//	System.out.println(human); //{이름=홍길동, 주소=서울 강서구, 나이=33, 성별=남자}
 		System.out.println(people); //[{이름=홍길동, 주소=서울 강서구, 나이=33, 성별=남자}]
 		System.out.println(people.get(0));
 	}
