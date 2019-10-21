@@ -68,4 +68,4 @@ public class ConnectionTest2 {
 	}
 }
 //database는 자바 언어를 못알아먹음
-//sql은 질의할 때만 사용할수있으음.
+//sql은 질의할 때만 사용할수있음.
