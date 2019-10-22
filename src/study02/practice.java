@@ -10,10 +10,11 @@ public class practice {
 	
 	public static void main(String[] args) {
 		practice2 pt = new practice2();
-	//	pt.num1 = 10;
+		practice prt = new practice();
+		prt.num1 = 10;
 	//	System.out.println(pt.num1);
-		
+		System.out.println(pt.num2); 
 		System.out.println(num2); 
-		
+		System.out.println(prt.num1); 
 	}
 }
