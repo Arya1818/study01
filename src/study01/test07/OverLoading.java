@@ -25,7 +25,7 @@ public class OverLoading {
 
 		//ol.test(1.1); // double이 없기 때문에 안됨
 		System.out.println(ol.test()); // void때문에 안됨 (void라는 데이터타입이 없다.)
-		//ol.test(5);
+		ol.test(int);
 		//ol.test("하하",1);
 	}
 }	

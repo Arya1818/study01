@@ -12,7 +12,7 @@ public class DBCon { //Data Base Connection
 //	Connection con; //멤버변수 일때만 인스턴스생성할대 null 자바가 넣어줌
 	
 	static {
-		URL= "jdbc:oracle:thin:@localhost:1521:xe";
+		URL= "jdbc:oracle:thin:@localhost:1521:xe"; //jsp에서 선언부르 만들 필요 없고 class로 빼줘야함
 		ID = "bdi";
 		PWD = "12345678";
 		DRIVER_NAME = "oracle.jdbc.driver.OracleDriver";
@@ -44,8 +44,8 @@ public class DBCon { //Data Base Connection
 		return con;
 	}
 	
-	public static void main(String[] args) {
-		Connection con = getCon();
+//	public static void main(String[] args) {
+//		Connection con = getCon();
 	}
-}
+//}
 
