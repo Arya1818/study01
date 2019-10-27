@@ -11,7 +11,7 @@ public class Inherit01 extends Atom{
 	public static void main(String[] args) {
 		Inherit01 ih = new Inherit01();
 		ih.protectedTest();
-//		System.out.println(ih);
+		System.out.println(ih);
 //		
 //		Object o = new Inherit01();
 //		System.out.println(o);

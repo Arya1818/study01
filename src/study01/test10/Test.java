@@ -15,7 +15,7 @@ public class Test {
 		String str = fNum+"."+sNum;
 		System.out.println(str);
 		
-		System.out.println(str + 1);
+//		System.out.println(str + 1);
 		
 		double db = Double.parseDouble(str);
 		System.out.println(db + 1);

@@ -19,4 +19,3 @@ public class Overriding {
 
 //오버라이딩 기본조건
 //무조건 상속!!
-//

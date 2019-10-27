@@ -17,7 +17,7 @@ public class DoubleList {
 			doubleList.add(Double.parseDouble(strList.get(i)));
 			
 		}
-//		System.out.println(doubleList);
+		System.out.println(doubleList);
 		//System.out.println(strList.get(0) + strList.get(1)); 
 		System.out.println(doubleList.get(0) + doubleList.get(1)); 
 				

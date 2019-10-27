@@ -8,3 +8,4 @@ public class ContinueTest {
 		}
 	}
 }
+//i가 2의 배수일때 걍 넘어가고 아닌것만 출력시켜라~

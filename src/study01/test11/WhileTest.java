@@ -1,6 +1,7 @@
 package study01.test11;
 
 import java.util.ArrayList;
+import java.util.List;
 
 public class WhileTest {
 
@@ -14,7 +15,7 @@ public class WhileTest {
 			i++;
 		}
 
-		ArrayList<String> strList = new ArrayList<String>();
+		List<String> strList = new ArrayList<String>();
 		while (strList.size() < 7) {
 			strList.add("암거나~");
 			System.out.println(strList);

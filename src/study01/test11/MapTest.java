@@ -22,7 +22,7 @@ public class MapTest {
 		people.add(human);
 		people.add(human); //add할 때마다 나온다. 그래서 같은 값으로 2개가 나온다. //[{이름=홍길동, 주소=서울 강서구, 나이=33, 성별=남자}, {이름=홍길동, 주소=서울 강서구, 나이=33, 성별=남자}]
 		
-	//	System.out.println(human.get("이름"));
+		System.out.println(human.get("이름"));
 	//	System.out.println(human); //{이름=홍길동, 주소=서울 강서구, 나이=33, 성별=남자}
 		System.out.println(people); //[{이름=홍길동, 주소=서울 강서구, 나이=33, 성별=남자}]
 		System.out.println(people.get(0));

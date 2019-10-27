@@ -16,10 +16,16 @@ public class Execute01 {
 			HashMap<String,String> p2 = new HashMap<String,String>(); 
 				//정해져있지않은 데이터타입이니까 List에 넣을 수 있음
 			p2.put("name","도영");
+			p2.put("name","지혜");
 			p2.put("age","24");
 			p2.put("addr","안양");
 			p2.put("trans","여");
 			System.out.println(p2);
+			
+			List<HashMap<String,String>> p2List = new ArrayList<HashMap<String,String>>();
+			p2List.add(p2);
+			p2List.add(p2);
+			System.out.println(p2List);
 		}
 	}
 

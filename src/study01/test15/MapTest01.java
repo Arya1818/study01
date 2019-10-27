@@ -20,14 +20,15 @@ public class MapTest01 {
 //		map.keySet이 keySet이 돼. keySet이 keySet.iterator가 돼. 그럼 map.keySet 
 //		String str = "123";
 //		System.out.println(str); -> System.out.println("123") 됨
+//		Map인터페이스를 구현한 컬렉션 클래스는 키와 값을 쌍으로 저장하고 있기 때문에 iterator()을 직접 호출할 수 없고
+//		그 대신 keySet()이나 entrySet()과 같은 메서드를 통해서 키와 값을 각각 따로 Set의 형태로 얻어온 후 다시 iterator()를 호출해야 Iterator를 얻을 수 있다.
 		
 		
 		while(it.hasNext()) {    //다음꺼가지고있어? {}안에 내용 없으면 계속 물어만 보는 것임. //for문과 쪼금 다르다.
 //			it.next(); //한명을 빼온다 //세번 돌고 true가 나옴.
 			String key = it.next();
 //			System.out.println(key); 
-			System.out.println(
-					"key:" + key);
+			System.out.println("key:" + key);
 			String value = map.get(key);
 			System.out.println("value:" + value);
 		

@@ -27,9 +27,9 @@ public class FinalTest01 extends Finalfather{
 		ft.test();
 		ff.test();
 		
-//		System.out.println(ff instanceof FinalTest01); //ff를 FinalTest01이라고 부를수있어?
+		System.out.println(ff instanceof FinalTest01); //ff를 FinalTest01이라고 부를수있어?
 		
-//		ft = (FinalTest01)ff; //형태에 따라 자름 
+		ft = (FinalTest01)ff; //형태에 따라 자름 
 				
 		ff = new Finalfather(); 
 		ff.test();

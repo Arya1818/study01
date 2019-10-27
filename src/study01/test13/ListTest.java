@@ -1,11 +1,13 @@
 package study01.test13;
 
+import java.util.ArrayList;
+
 public class ListTest {
 	private String[] strs; /* <-이걸쓰려면 반드시 ListTest를 new해줘야한다./변수는 private로 주로 선언, 왜? 
 								main에서 맘대로 못바꾸게하려고, 메소드를 통해 하게하려고.*/
 	
 	public ListTest() {			//null값의 길이를 구하면 안도니까 이걸 꼭 추가해줘야함.
-		this.strs = new String[0];  
+		this.strs = new String[3];  
 	}
 	
 	public int size() { 	//str의 length를 return해야함
@@ -24,7 +26,7 @@ public class ListTest {
 	
 	public static void main(String[] args) {
 //		ArrayList<String> arr = new ArrayList<String>();
-		//System.out.println(arr.size());    //int형 데이터타입에 size가 있다.
+//		System.out.println(arr.size());    //int형 데이터타입에 size가 있다.
 		ListTest lt = new ListTest();
 //		System.out.println(lt.size());
 		lt.add("a"); // a

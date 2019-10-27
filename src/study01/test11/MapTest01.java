@@ -18,6 +18,7 @@ public class MapTest01 {
 		people.add(human); 
 		System.out.println(people);
 		people.get(1).put("이름","김길동");  //[{이름=김길동}, {이름=김길동}]
+		System.out.println(people);
 	//	human.put("이름","임꺽정");  //[{이름=임꺽정}, {이름=임꺽정}]
 		human = new HashMap<String,String>();
 		System.out.println(human); //새로운 인스턴스를 바라본다.

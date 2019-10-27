@@ -1,6 +1,7 @@
 package study01.test15;
 
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 
 public class MapTest {
@@ -21,8 +22,9 @@ public class MapTest {
 //		for(int i=0; i< map.size();i++) {
 //			System.out.println(map.get(i)); //index 데이터타입이 string인데 get(i)는 int라서.. //null, null, null
 //		}
-		System.out.println(map);
+		System.out.println(map); //{보물1호=컴퓨터,보물2호=컴퓨터,해야할일=운동}
 		System.out.println(map.get("보물1호")==map.get("보물2호"));  //true. 같은 주소를 바라봄.
+		
 }
 }
 

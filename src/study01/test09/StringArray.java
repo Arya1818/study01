@@ -5,7 +5,6 @@ import java.util.ArrayList;
 
 public class StringArray {
 
-	
 		public static void main(String[] args) {
 		ArrayList<String> strList = new ArrayList<String>();
 		strList.add("홍길동");

@@ -4,7 +4,9 @@ public class FinalTest {
 	final int num = 1;
 	
 	public static void main(String[] args) {
+		FinalTest ft = new FinalTest();
 		String str = "abc";
+		System.out.println(ft.num);
 		
 		
 		
