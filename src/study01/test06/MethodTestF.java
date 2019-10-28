@@ -5,7 +5,7 @@ public class MethodTestF {
 	public static void main(String[] args) {
 		String str = "1234567";
 		int idx = str.indexOf("12");
-		int idx2 = str.indexOf("234"); // indexOf 데이터타입이int니까 int에 대입 가능한 것
+		int idx2 = str.indexOf("8"); // indexOf 데이터타입이int니까 int에 대입 가능한 것
 		System.out.println("str의 " + idx + " index자리에 있네요");
 		System.out.println("str의 " + idx2 + " index자리에 있네요");
 
