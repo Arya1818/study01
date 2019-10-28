@@ -12,7 +12,7 @@ public class MapTest {
 		human.put("나이","33");
 		human.put("주소","서울 강서구");
 		human.put("성별","남자");
-	//	map.put("성별", "여자"); //같은 키면 중복이 안된다. 
+	//	human.put("성별", "여자"); //같은 키면 중복이 안된다. 
 	
 		
 		System.out.println(human);

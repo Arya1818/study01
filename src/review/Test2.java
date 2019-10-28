@@ -4,16 +4,17 @@ import java.util.HashMap;
 
 public class Test2 {
 
-	void changeMap(HashMap<String,String> map) {
-		map = new HashMap<String,String>();
-		map.put("나이","44");
+	void changeMap(HashMap<String,String> m) {
+		m = new HashMap<String,String>();
+		m.put("나이","44");
 //		System.out.println(map);
 	}
 	public static void main (String[] args) {
 		HashMap<String,String> map = new HashMap<String,String>();
 		map.put("나이","33");
 		Test2 t = new Test2(); //(static이 없으니)
-//		t.changeMap(map);
+		t.changeMap(map);
+		map = new HashMap<String,String>();
 		System.out.println(map);
 		
 	}
