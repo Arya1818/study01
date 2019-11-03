@@ -21,6 +21,9 @@ public class ListTest {
 		for(int i =0; i<tmpStr.length; i++) {
 			this.strs[i]=tmpStr[i];
 		}
+		for(int i=0; i<strs.length; i++) {
+			System.out.println(strs[i]);
+		}
 	}
 	
 	
@@ -31,10 +34,11 @@ public class ListTest {
 //		System.out.println(lt.size());
 		lt.add("a"); // a
 		
-		lt.add("b"); // null b
-		lt.add("c"); // null null c
-//		System.out.println(lt.size());
-		System.out.println(lt.strs[0]+','+lt.strs[1]+','+lt.strs[2]);
+//		lt.add("b"); // null b
+//		lt.add("c"); // null null c
+		
+//		System.out.println(lt);
+//		System.out.println(lt.strs[0]+','+lt.strs[1]+','+lt.strs[2]);
 	}
 }
 
